@@ -23,9 +23,9 @@ import java.util.UUID;
 @Slf4j
 @RestController
 
-public class EmailSchedulerController {
+public class EmailSchedulerApi {
 
-    private static final Logger logger = LoggerFactory.getLogger(EmailSchedulerController.class);
+    private static final Logger logger = LoggerFactory.getLogger(EmailSchedulerApi.class);
     @Autowired
     private Scheduler scheduler;
 
