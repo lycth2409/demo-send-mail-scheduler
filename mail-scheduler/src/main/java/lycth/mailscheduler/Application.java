@@ -9,10 +9,10 @@ import java.time.LocalDateTime;
 
 @SpringBootApplication
 @EnableScheduling
-public class MailSchedulerApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MailSchedulerApplication.class, args);
+		SpringApplication.run(Application.class, args);
 		System.out.println(LocalDateTime.now());
 	}
 
